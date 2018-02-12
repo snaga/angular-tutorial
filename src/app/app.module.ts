@@ -7,13 +7,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { FormComponent } from './form/form.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PipeComponent,
-    FormComponent
+    FormComponent,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,
