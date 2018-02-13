@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { FormComponent } from './form/form.component';
 import { DirectiveComponent } from './directive/directive.component';
+import { TaskComponent } from './task/task.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { DirectiveComponent } from './directive/directive.component';
     AppComponent,
     PipeComponent,
     FormComponent,
-    DirectiveComponent
+    DirectiveComponent,
+    TaskComponent
   ],
   imports: [
     BrowserModule,
